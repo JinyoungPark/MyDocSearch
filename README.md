@@ -22,7 +22,7 @@
 
 ## 받기 (Windows 10/11 64비트)
 
-1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.3-windows-portable.zip`(약 200MB)을 받습니다.
+1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.4-windows-portable.zip`(약 230MB)을 받습니다.
 2. 원하는 곳(예: `D:\Apps\MyDocSearch`)에 **압축을 모두 풉니다**. 설치는 필요 없습니다.
 3. 폴더 안의 `MyDocSearch.exe`를 실행합니다. “Windows의 PC 보호” 창이 뜨면 **추가 정보 → 실행**.
 4. 첫 화면에 문서·바탕 화면·다운로드(OneDrive가 있으면 함께)가 골라져 있습니다 → **이 폴더로 시작**.
@@ -184,7 +184,7 @@
 1. **Claude** (Pro·Max): **로그인** → 앱이 공식 Claude Code를 뒤에서 설치하고 브라우저에 로그인 화면을 띄웁니다 → 승인 뒤 나오는 코드를 앱 입력칸에 붙여 넣으면 **연결됨**.
    **사용 모델**에서 모델을 고릅니다 (‘기본’은 요금제에 맞는 모델).
 2. **ChatGPT** (Plus 이상, 회사 Business 계정도): **로그인** → 브라우저의 OpenAI 공식 화면에서 승인하면 끝.
-   - **Gemini** (0.3.0부터, 그림에는 아직 없음 · 시험판): ChatGPT 아래 **Google로 로그인** → 앱이 공식 Gemini CLI를 내려받아 설치하고 브라우저에 Google 로그인 화면을 띄웁니다 → **구독한 Google 계정**으로 로그인하면 **연결됨** (터미널 창은 뜨지 않습니다). Google AI Pro·Ultra 구독(또는 무료 사용량)으로 답하고, 모델은 기본(자동)·Pro·Flash·Flash-Lite. 회사·학교 Google 계정은 Google Cloud 프로젝트 설정이 따로 필요할 수 있습니다.
+   - **Gemini** (0.3.0부터, 그림에는 아직 없음 · 시험판): ChatGPT 아래 **Google로 로그인** → 브라우저에 Google 로그인 화면이 뜹니다 (공식 Gemini CLI는 앱에 들어 있어 따로 받을 것이 없습니다) → **구독한 Google 계정**으로 로그인하면 **연결됨** (터미널 창은 뜨지 않습니다). Google AI Pro·Ultra 구독(또는 무료 사용량)으로 답하고, 모델은 기본(자동)·Pro·Flash·Flash-Lite. 회사·학교 Google 계정은 Google Cloud 프로젝트 설정이 따로 필요할 수 있습니다.
    - **연결 끊기**는 이 앱에서만 그 AI를 쓰지 않게 합니다. 이 PC의 다른 프로그램과 함께 쓰는 로그인까지 지우려면 끊긴 상태에서 **이 PC에서 완전히 로그아웃**.
    - 질문할 때 질문과 AI가 읽은 문서 일부가 그 AI 회사로 갑니다. 이 앱은 비밀번호를 보지 않습니다.
 3. **다른 AI 앱에서 내 문서 쓰기 → 연결**: 이 PC에 설치된 **Claude 데스크톱 · Claude Code · Codex**가 보이고, **연결**을 누르면 이 앱의 문서 검색 도구(MCP)가 등록됩니다. 키는 필요 없습니다.
