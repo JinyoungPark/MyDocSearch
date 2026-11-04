@@ -22,13 +22,13 @@
 
 ## 받기 (Windows 10/11 64비트)
 
-1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.8-windows-portable.zip`(약 230MB)을 받습니다.
+1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.9-windows-portable.zip`(약 210MB)을 받습니다.
 2. 원하는 곳(예: `D:\Apps\MyDocSearch`)에 **압축을 모두 풉니다**. 설치는 필요 없습니다.
 3. 폴더 안의 `MyDocSearch.exe`를 실행합니다. “Windows의 PC 보호” 창이 뜨면 **추가 정보 → 실행**.
 4. 첫 화면에 문서·바탕 화면·다운로드(OneDrive가 있으면 함께)가 골라져 있습니다 → **이 폴더로 시작**.
    색인하는 동안에도 바로 찾을 수 있습니다.
 
-- **AI 답을 받으려면**: 설정 → 💬 AI·보안에서 Claude(Pro·Max), ChatGPT(Plus 이상), Gemini(Google 계정 — 구독 없는 무료 개인 계정도 가능) 중 하나에 로그인합니다. API 키는 필요 없습니다.
+- **AI 답을 받으려면**: 설정 → 💬 AI·보안에서 Claude(Pro·Max), ChatGPT(Plus 이상), Gemini(개인 Google 계정 — 무료 계정도 가능) 중 하나에 로그인합니다. API 키는 필요 없습니다.
 - **필요한 것**: 디스크 여유 1GB 이상 (의미 검색 모델을 쓰면 +0.5~2GB).
 
 ---
@@ -186,7 +186,7 @@
 1. **Claude** (Pro·Max): **로그인** → 앱이 공식 Claude Code를 뒤에서 설치하고 브라우저에 로그인 화면을 띄웁니다 → 승인 뒤 나오는 코드를 앱 입력칸에 붙여 넣으면 **연결됨**.
    **사용 모델**에서 모델을 고릅니다 (‘기본’은 요금제에 맞는 모델).
 2. **ChatGPT** (Plus 이상, 회사 Business 계정도): **로그인** → 브라우저의 OpenAI 공식 화면에서 승인하면 끝.
-   - **Gemini** (0.3.0부터, 그림에는 아직 없음 · 시험판): ChatGPT 아래 **Google로 로그인** → 브라우저에 Google 로그인 화면이 뜹니다 (공식 Gemini CLI는 앱에 들어 있어 따로 받을 것이 없습니다) → **개인 Google(@gmail.com) 계정**으로 로그인하면 **연결됨** (터미널 창은 뜨지 않습니다). 구독이 없어도 무료 사용량(하루 횟수 제한)으로 쓸 수 있고, Google AI Pro·Ultra 구독이면 더 많이 씁니다. 모델은 기본(자동)·Pro·Flash·Flash-Lite. 무료 계정은 Google이 질문·답(앱이 찾아 넣은 문서 내용 포함)을 서비스 개선에 쓸 수 있으니 회사 문서는 보안 기준을 먼저 확인하세요. 회사·학교 Google 계정은 Google Cloud 프로젝트 설정이 따로 필요해 바로는 안 됩니다.
+   - **Gemini** (0.3.9부터 Google Antigravity로 연결 · 그림에는 아직 없음): ChatGPT 아래 **Google로 로그인** → 처음 한 번 Google 공식 서버에서 Antigravity 프로그램(약 200MB)을 받습니다 → 브라우저에 Google 로그인 화면이 뜨면 **개인 Google(@gmail.com) 계정**으로 로그인하고 **허용**을 누르면 저절로 **연결됨** (터미널·코드 입력 없음). 무료 계정도 주간 사용량 안에서 쓸 수 있고, Google AI Pro·Ultra 구독이면 더 많이 씁니다. 모델은 이 계정에서 쓸 수 있는 목록(Gemini Flash·Pro 등)에서 고릅니다. 개인 계정은 Google 약관에 따라 질문·답(앱이 찾아 넣은 문서 내용 포함)이 서비스 개선에 쓰일 수 있으니 회사 문서는 보안 기준을 먼저 확인하세요. Google이 2026년 6월부터 Gemini CLI의 개인 계정 로그인을 막아, 0.3.8 이하의 Gemini 연결은 더 이상 되지 않습니다.
    - **연결 끊기**는 이 앱에서만 그 AI를 쓰지 않게 합니다. 이 PC의 다른 프로그램과 함께 쓰는 로그인까지 지우려면 끊긴 상태에서 **이 PC에서 완전히 로그아웃**.
    - 질문할 때 질문과 AI가 읽은 문서 일부가 그 AI 회사로 갑니다. 이 앱은 비밀번호를 보지 않습니다.
 3. **다른 AI 앱에서 내 문서 쓰기 → 연결**: 이 PC에 설치된 **Claude 데스크톱 · Claude Code · Codex**가 보이고, **연결**을 누르면 이 앱의 문서 검색 도구(MCP)가 등록됩니다. 키는 필요 없습니다.
