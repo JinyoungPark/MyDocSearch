@@ -22,7 +22,7 @@
 
 ## 받기 (Windows 10/11 64비트)
 
-1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.13-windows-portable.zip`(약 210MB)을 받습니다.
+1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.14-windows-portable.zip`(약 210MB)을 받습니다.
 2. 원하는 곳(예: `D:\Apps\MyDocSearch`)에 **압축을 모두 풉니다**. 설치는 필요 없습니다.
 3. 폴더 안의 `MyDocSearch.exe`를 실행합니다. “Windows의 PC 보호” 창이 뜨면 **추가 정보 → 실행**.
 4. 첫 화면에 문서·바탕 화면·다운로드(OneDrive가 있으면 함께)가 골라져 있습니다 → **이 폴더로 시작**.
@@ -30,7 +30,7 @@
 
 - **AI 답을 받으려면**: 설정 → 💬 AI·보안에서 Claude(Pro·Max), ChatGPT(Plus 이상), Gemini(개인 Google 계정 — 무료 계정도 가능) 중 하나에 로그인합니다. API 키는 필요 없습니다.
 - **필요한 것**: 디스크 여유 1GB 이상 (의미 검색 모델을 쓰면 +0.5~2GB).
-- **새 버전 알림**: 새 버전이 나오면 앱 위쪽에 “새 버전이 나왔습니다 · 받기”가 뜹니다 (0.3.13부터, 설정 → ℹ️ 정보 → 새 버전 확인). 메일로도 받으려면 GitHub에 로그인한 뒤 이 저장소 오른쪽 위 **Watch → Custom → Releases**를 체크하세요. 새 zip을 받아 압축을 풀고 실행하면 문서 색인·설정은 그대로 이어서 씁니다.
+- **새 버전 알림·자동 업데이트**: 새 버전이 나오면 앱 위쪽에 “새 버전이 나왔습니다”가 뜹니다 (설정 → ℹ️ 정보 → 새 버전 확인). 0.3.14부터는 **지금 업데이트**를 누르면 앱이 새 버전을 받아 두고, **다시 시작해 업데이트**를 누르면 몇 초 안에 새 버전으로 열립니다. 문서 색인·설정은 그대로 이어서 씁니다. 백신·권한 때문에 막히면 이전 버전으로 되돌린 뒤 안내가 뜨니, 그때는 Releases에서 새 zip을 직접 받아 압축을 풀고 실행하세요. 메일로도 받으려면 GitHub에 로그인한 뒤 이 저장소 오른쪽 위 **Watch → Custom → Releases**를 체크하세요.
 
 ---
 
