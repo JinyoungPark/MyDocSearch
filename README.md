@@ -22,7 +22,7 @@
 
 ## 받기 (Windows 10/11 64비트)
 
-1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.12-windows-portable.zip`(약 210MB)을 받습니다.
+1. [**Releases**](https://github.com/JinyoungPark/MyDocSearch/releases/latest)에서 `MyDocSearch-0.3.13-windows-portable.zip`(약 210MB)을 받습니다.
 2. 원하는 곳(예: `D:\Apps\MyDocSearch`)에 **압축을 모두 풉니다**. 설치는 필요 없습니다.
 3. 폴더 안의 `MyDocSearch.exe`를 실행합니다. “Windows의 PC 보호” 창이 뜨면 **추가 정보 → 실행**.
 4. 첫 화면에 문서·바탕 화면·다운로드(OneDrive가 있으면 함께)가 골라져 있습니다 → **이 폴더로 시작**.
